@@ -4,6 +4,7 @@ import Router from "vue-router";
 import Home from "pages/Home.vue";
 import About from "pages/About.vue";
 import Culture from "pages/Culture.vue";
+import Douban from "pages/Douban.vue";
 
 Vue.use(Router);
 
@@ -21,6 +22,10 @@ export default new Router({
     {
       path: "/culture",
       component: Culture
+    },
+    {
+      path: "/douban",
+      component: Douban
     }
   ]
 });

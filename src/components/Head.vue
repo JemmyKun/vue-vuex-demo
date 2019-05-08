@@ -39,6 +39,10 @@ export default {
         {
           name: "关于",
           path: "/about"
+        },
+        {
+          name: "豆瓣",
+          path: "/douban"
         }
       ]
     };
